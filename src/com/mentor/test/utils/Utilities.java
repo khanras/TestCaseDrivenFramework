@@ -31,7 +31,7 @@ public class Utilities {
 
 	public static String readProperty(String key) throws IOException {
 		String value = "";
-		File f1 = new File("D:\\SELENIUM\\Workspace\\TestLinkDigital\\data\\propertiesdata.properties");
+		File f1 = new File("D:\\SELENIUM\\Workspace\\TestCaseDrivenFramework\\data\\propertiesdata.properties");
 		FileInputStream f2 = new FileInputStream(f1);
 		Properties p = new Properties();
 		p.load(f2);
